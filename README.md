@@ -32,7 +32,7 @@ After the EDA, next step is to concatenate the numerical and categorical datafra
 -These results were obtained without any tuning on the DT and RF classifiers. After performing Hyperparameter tuning the results of decision trees were boosted and rose upto ##79% which was the highest accuracy received in this process.
 - We created a feature importance plot to depict the contribution of each feature towards the target outcome.
 ## This concluded the data model creation phase, we saved the model by using the pickle function.
-# Deploymnet
+# Deployment
 For the deployment process, I choose to deploy it using flask framework and also created a simple html form. 
 ## HTML form-
 The html form created here is one without any css or js scripts. It uses only the basic of html code to create a simple web application and is stored as a template. The form is linked with the app source code so that the data collected from the user gets sent to the app code.
